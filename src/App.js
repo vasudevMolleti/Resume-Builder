@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Footer from "./components/Footer";
-
+import Education from "./components/Education/Education";
 import {
   BrowserRouter as Router,
   Route,
@@ -38,6 +38,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<Navigate to="/"/>} />
+          <Route path="/Education" element={<Education />} />
         </Routes>
         <Footer />
       </div>
