@@ -24,6 +24,7 @@ function Contact() {
               }}
             >
               
+              <h1>Contact us </h1>
         
             </Col>
               <Col
